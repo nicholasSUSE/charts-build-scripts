@@ -220,7 +220,7 @@ func main() {
 
 		Target version of chart to release.
 		`,
-		Required:    true,
+		Required:    false,
 		Destination: &ChartVersion,
 		EnvVar:      defaultChartVersionEnvironmentVariable,
 	}
